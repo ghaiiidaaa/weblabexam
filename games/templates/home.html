@@ -1,0 +1,14 @@
+<!-- home.html -->
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome to the Video Games Collection!</h1>
+    <img src="{% static 'images/your_image.jpg' %}" alt="Welcome Image">
+    <p><a href="{% url 'game_list' %}">View the list of games</a></p>
+</body>
+</html>
